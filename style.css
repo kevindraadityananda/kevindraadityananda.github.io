@@ -1,0 +1,95 @@
+/* Navbar */
+.navbar-brand{
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid #ffffff;
+}
+
+.navbar-brand, .nav-link{
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Jumbotron */
+.jumbotron-home{
+    background-image: url(img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+.jumbotron-about{
+    background-image: url(img/pairbg.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+.jumbotron-product{
+    background-image: url(img/shoesbg.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+.jumbotron-order{
+    background-image: url(img/order-bg.jpg);
+    background-size: cover;
+    height: 640px;   
+}
+
+.jumbotron-contact{
+    background-image: url(img/android-bg.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+/* About */
+.about{
+    height: 660px;
+    text-align: center;
+    margin-top: 50px;
+    background-size: cover;
+}
+.desk{
+    margin-top: 50px;
+    text-align: left;
+}
+
+/* Card */
+.product{
+    height: 1700px;
+    background-size: cover;
+}
+
+.card{
+    margin-top: 50px;
+}
+
+/* Contact */
+.contact{
+    height: 660px;
+}
+
+/* Pemesanan */
+.pemesanan{
+    height: 660px;
+    background-size: cover;
+}
+.note{
+    margin-top: 50px;
+}
